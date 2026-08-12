@@ -72,12 +72,10 @@ Include boundaries in the regex. When `true`, `192.168.0.2000000000` will report
 
 ## Important
 
-If you run the regex against untrusted user input in a server context, you should [give it a timeout](https://github.com/sindresorhus/super-regex).
+If you run the regex against untrusted user input in a server context, you should [give it a timeout](https://github.com/Unity-Billal-mesloub/super-regex).
 
 **I do not consider ReDoS a valid vulnerability for this package. It's simply not possible to make it fully ReDoS safe. It's up to the user to set a timeout for the regex if they accept untrusted user input.** However, I'm happy to accept pull requests to improve the regex.
 
 ## Related
 
-- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address
-- [is-cidr](https://github.com/silverwind/is-cidr) - Check if a string is an IP address in CIDR notation
-- [cidr-regex](https://github.com/silverwind/cidr-regex) - Regular expression for matching IP addresses in CIDR notation
+- [is-ip](https://github.com/Unity-Billal-mesloub/is-ip) - Check if a string is an IP address
